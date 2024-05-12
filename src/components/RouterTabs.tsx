@@ -5,7 +5,7 @@ import ReverseShell from './revShell/ReverseShell';
 import {  } from '@ant-design/icons';
 
 const IconFont = createFromIconfontCN({
-  scriptUrl: [`${require('../package.json').homepage}/iconfont.js`]
+  scriptUrl: [`${require('../../package.json').homepage}/iconfont.js`]
 });
 
 interface IRouterComponent {
