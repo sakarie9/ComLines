@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter basename={pjson.homepage}>
       <Routes>
-        <Route path="*" element={<MainWindow />} />
+        <Route path="/*" element={<MainWindow />} />
       </Routes>
     </BrowserRouter>
   );

@@ -2,7 +2,6 @@ import { createFromIconfontCN } from '@ant-design/icons';
 import React from 'react';
 import About from './About';
 import ReverseShell from './revShell/ReverseShell';
-import {  } from '@ant-design/icons';
 
 const IconFont = createFromIconfontCN({
   scriptUrl: [`${require('../../package.json').homepage}/iconfont.js`]
