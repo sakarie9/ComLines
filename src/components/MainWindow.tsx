@@ -12,7 +12,7 @@ const MainWindow = () => {
   const location = useLocation();
   const [selectedKey, setSelectedKey] = useState(() => {
     const currentTab = Tabs.find(tab => tab.path === location.pathname);
-    return currentTab ? currentTab.key : '0'; // Default to '0' if no matching path
+    return currentTab ? currentTab.key : '0';
   });
 
   useEffect(() => {
@@ -73,7 +73,7 @@ const MainWindow = () => {
               ))}
               <Route path="*" element={<About />} />
             </Routes>
-            <Outlet /> {/* 渲染子路由 */}
+            <Outlet />
           </Content>
         </Layout>
       </Layout >
